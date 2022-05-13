@@ -2,7 +2,8 @@
   "telemetry.telemetryLevel": "off",
   "editor.fontFamily": "'JetBrains Mono'",
   "editor.fontWeight": "normal",
-  "editor.lineHeight": 1.8,
+  "editor.lineHeight": 1.72,
+  "terminal.integrated.lineHeight": 1,
   "editor.renderWhitespace": "selection",
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
@@ -18,8 +19,6 @@
   "editor.linkedEditing": true,
   "editor.padding.top": 32,
   "editor.padding.bottom": 32,
-  // "editor.codeLens": false,
-  "workbench.iconTheme": "vs-nomo-dark",
   "workbench.localHistory.enabled": false,
   // "editor.autoClosingQuotes": "never",
   // "editor.autoClosingBrackets": "never"
@@ -31,10 +30,10 @@
   "workbench.colorCustomizations": {
     "scrollbar.shadow": "#00000000",
     "widget.shadow": "#00000000",
-    // "editorIndentGuide.activeBackground": "#ffffff08",
-    // "editorIndentGuide.background": "#ffffff04"
-    "editorIndentGuide.activeBackground": "#00000008",
-    "editorIndentGuide.background": "#00000004"
+    "editorIndentGuide.activeBackground": "#ffffff08",
+    "editorIndentGuide.background": "#ffffff04"
+    // "editorIndentGuide.activeBackground": "#00000008",
+    // "editorIndentGuide.background": "#00000004"
   },
 
   "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
@@ -51,6 +50,5 @@
   "window.menuBarVisibility": "toggle",
   "editor.bracketPairColorization.enabled": false,
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Default Light+",
-  "window.zoomLevel": 0.5,
+  "workbench.iconTheme": "vs-nomo-dark"
 }
