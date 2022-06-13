@@ -1,18 +1,19 @@
 {
   "telemetry.telemetryLevel": "off",
-  "editor.fontFamily": "'JetBrains Mono'",
-  "editor.fontWeight": "normal",
-  "editor.lineHeight": 1.72,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "400",
+  "editor.lineHeight": 1.64,
+  "editor.letterSpacing": 0.24,
   "terminal.integrated.lineHeight": 1,
   "editor.renderWhitespace": "selection",
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.fontSize": 14,
   "terminal.integrated.fontSize": 14,
-  "workbench.tree.indent": 16,
+  "workbench.tree.indent": 32,
   "window.dialogStyle": "custom",
   "window.titleBarStyle": "custom",
-  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+  "window.title": "",
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "editor.roundedSelection": false,
@@ -30,14 +31,13 @@
   "workbench.colorCustomizations": {
     "scrollbar.shadow": "#00000000",
     "widget.shadow": "#00000000",
-    "editorIndentGuide.activeBackground": "#ffffff08",
-    "editorIndentGuide.background": "#ffffff04"
-    // "editorIndentGuide.activeBackground": "#00000008",
-    // "editorIndentGuide.background": "#00000004"
+    "editorIndentGuide.activeBackground": "#ffffff16",
+    "editorIndentGuide.background": "#ffffff12"
+    // "editorIndentGuide.activeBackground": "#00000016",
+    // "editorIndentGuide.background": "#00000012"
   },
 
   "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[markdown]": { "editor.defaultFormatter": "yzhang.markdown-all-in-one" },
   "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
@@ -47,30 +47,17 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.layoutControl.enabled": false,
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "compact",
   "editor.bracketPairColorization.enabled": false,
-  "workbench.activityBar.visible": false,
-  "workbench.iconTheme": "vs-nomo-dark"
-}
-
-// Place your key bindings in this file to override the defaultsauto[]
-[
-  {
-    "key": "shift+alt+f",
-    "command": "editor.action.formatDocument",
-    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  "workbench.startupEditor": "none",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  {
-    "key": "shift+alt+f",
-    "command": "-editor.action.formatDocument",
-    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-  },
-  {
-    "key": "ctrl+f7",
-    "command": "workbench.action.decreaseViewSize"
-  },
-  {
-    "key": "ctrl+f8",
-    "command": "workbench.action.increaseViewSize"
+  "editor.codeLens": false,
+  "editor.cursorSurroundingLines": 8,
+  "vim.useSystemClipboard": true,
+  "workbench.iconTheme": "vs-nomo-dark",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
   }
-]
+}
