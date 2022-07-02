@@ -1,63 +1,53 @@
 {
+  /* TELEMETRY */ 
   "telemetry.telemetryLevel": "off",
+
+  /* EDITOR */ 
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontWeight": "400",
-  "editor.lineHeight": 1.64,
-  "editor.letterSpacing": 0.24,
-  "terminal.integrated.lineHeight": 1,
-  "editor.renderWhitespace": "selection",
+  "editor.lineHeight": 1.72,
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.fontSize": 14,
-  "terminal.integrated.fontSize": 14,
-  "workbench.tree.indent": 32,
-  "window.dialogStyle": "custom",
-  "window.titleBarStyle": "custom",
-  "window.title": "",
-  "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "editor.roundedSelection": false,
   "editor.linkedEditing": true,
   "editor.padding.top": 32,
   "editor.padding.bottom": 32,
-  "workbench.localHistory.enabled": false,
-  // "editor.autoClosingQuotes": "never",
-  // "editor.autoClosingBrackets": "never"
-  "diffEditor.ignoreTrimWhitespace": false,
-  "zenMode.fullScreen": false,
-  "zenMode.centerLayout": true,
-  "zenMode.hideActivityBar": false,
+  "editor.codeLens": false,
+  "editor.bracketPairColorization.enabled": false,
 
+  /* TERMINAL */ 
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.fontSize": 14,
+
+  /* WORKBENCH */ 
+  "workbench.tree.indent": 12,
+  "workbench.localHistory.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default Light+",
   "workbench.colorCustomizations": {
     "scrollbar.shadow": "#00000000",
     "widget.shadow": "#00000000",
-    "editorIndentGuide.activeBackground": "#ffffff16",
-    "editorIndentGuide.background": "#ffffff12"
-    // "editorIndentGuide.activeBackground": "#00000016",
-    // "editorIndentGuide.background": "#00000012"
+    "editorIndentGuide.background": "#00000016",
+    "editorIndentGuide.activeBackground": "#00000016",
   },
 
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "workbench.layoutControl.enabled": false,
+  /* WINDOW */ 
+  "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "window.title": "",
   "window.menuBarVisibility": "compact",
-  "editor.bracketPairColorization.enabled": false,
-  "workbench.startupEditor": "none",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.codeLens": false,
-  "editor.cursorSurroundingLines": 8,
-  "vim.useSystemClipboard": true,
-  "workbench.iconTheme": "vs-nomo-dark",
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  }
+
+  /* ZEN */ 
+  "zenMode.fullScreen": false,
+  "zenMode.centerLayout": true,
+  "zenMode.hideActivityBar": true,
+  "zenMode.hideLineNumbers": true,
+
+  /* OTHERS */
+  "breadcrumbs.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false
 }
